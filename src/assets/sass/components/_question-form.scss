@@ -1,0 +1,105 @@
+#question-form {
+  font-size: 0;
+  padding: $f55 $f42;
+  background-color:$lightestgray;
+  .left-side-section {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: $f34;
+      font-weight: 800;
+      color: $darkgray;
+    }
+
+    .input-name input {
+      margin-top: $f21;
+      width: fnW(377);
+      height: $f55;
+      border: 1px solid $lightgray;
+      border-radius: 3px;
+      padding-left: $f21;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: $f21;
+      font-weight: 500;
+      color: $darkgray;
+    }
+
+    .input-email {
+      display: inline-block;
+      margin-top: $f16;
+      margin-bottom: $f16;
+      input {
+        display: inline-block;
+        width: fnW(377);
+        height: $f55;
+        border: 1px solid $lightgray;
+        border-radius: 3px;
+        padding-left: $f21;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: $f21;
+        font-weight: 500;
+        color: $darkgray;
+      }
+    }
+
+    .input-phone-number {
+      display: inline-block;
+      margin-left: $f16;
+      input {
+        display: inline-block;
+        width: fnW(377);
+        height: $f55;
+        border: 1px solid $lightgray;
+        border-radius: 3px;
+        padding-left: $f21;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: $f21;
+        font-weight: 500;
+        color: $darkgray;
+      }
+    }
+    
+    textarea {
+      width: fnW(769);
+      height: $f144;
+      border: 1px solid $lightgray;
+      border-radius: 3px;
+      padding-left: $f21;
+      padding-top: $f18;
+      font-family: 'Roboto Condensed',sans-serif;
+      font-size: $f21;
+      font-weight: 500;
+      color: $darkgray;
+    }
+    
+    .question-form-button {
+      margin-top: $f26;
+      button {
+        width: $f178;
+        height: $f55;
+        background-color: $blue;
+        border-radius: 3px;
+        font-family: 'Roboto Condensed',sans-serif;
+        font-size: $f26;
+        font-weight: 500;
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .right-side-section {
+    display: inline-block;
+    width: 50%;
+    vertical-align: bottom;
+    .right-side-item-image{
+      float: right;
+      margin-right: $f42;
+      image {
+       
+      }
+    }
+  }
+}

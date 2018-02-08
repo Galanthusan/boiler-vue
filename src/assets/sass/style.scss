@@ -1,0 +1,83 @@
+$mobile: 320px;
+$tablet: 320px;
+$small : 1023px;
+$medium : 1440px;
+$large: 1680px;
+
+/*
+  Color variables regular and hover
+ */
+
+$black: #303030;
+$blue: #92cacc;
+$darkgray: #606060;
+$lightgray: #cccccc;
+$lightestgray: #f7f7f7;
+$white: #ffffff;
+$input_placeholder_color: gray;
+
+/*
+  Font variables
+ */
+$font_path: '../assets/fonts/';
+
+$font-header-text: 'Akrobat', sans-serif;
+/*
+  Fibonacci shortcuts for vw
+ */
+
+$f5: 0.260vw;
+$f8: 0.416vw;
+$f10: 0.520vw;
+$f13: 0.677vw;
+$f16: 0.833vw;
+$f18: 0.933vw;
+$f21: 1.093vw;
+$f26: 1.354vw;
+$f34: 1.770vw;
+$f42: 2.187vw;
+$f55: 2.864vw;
+$f68: 3.541vw;
+$f89: 4.635vw;
+$f110: 5.729vw;
+$f144: 7.5vw;
+$f178: 9.270vw;
+$f233: 12.135vw;
+$f288: 15vw;
+$f400: 20.833vw;
+$f480: 30vw;
+
+@import "assets/media";
+@import "assets/reset";
+@import "assets/mixins";
+
+@import "layout/grid";
+
+@import "components/header";
+@import "components/sub-navigation";
+@import "components/products";
+@import "components/question-form";
+@import "components/footer";
+@import "components/product-sidebar";
+
+
+
+body {
+  margin-top:$f68 + $f68;
+  ::-webkit-scrollbar {
+    width: 1px;
+  }
+}
+
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }

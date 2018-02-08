@@ -1,0 +1,17 @@
+#footer {
+  height: $f68;
+  width: 100%;
+  background-color: $black;
+  text-align: center;
+  line-height: $f68;
+  padding: 0 $f42;
+  .footer-info {
+    float: right;
+    p {
+      font-family: $font-header-text;
+      font-size: $f16;
+      font-weight: bold;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #606060;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>filter</title>
+  <g>
+    <g>
+      <line class="cls-1" x1="31.5" y1="3" x2="34.5" y2="3"/>
+      <line class="cls-1" x1="0.5" y1="3" x2="26.5" y2="3"/>
+      <circle class="cls-1" cx="29" cy="3" r="2.5"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="13.44" y1="12" x2="34.5" y2="12"/>
+      <line class="cls-1" x1="0.5" y1="12" x2="8.44" y2="12"/>
+      <circle class="cls-1" cx="10.94" cy="12" r="2.5"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="29.5" y1="21" x2="34.5" y2="21"/>
+      <line class="cls-1" x1="0.5" y1="21" x2="24.5" y2="21"/>
+      <circle class="cls-1" cx="27" cy="21" r="2.5"/>
+    </g>
+  </g>
+</svg>

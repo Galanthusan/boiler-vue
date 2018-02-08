@@ -1,0 +1,86 @@
+#header {
+  position: fixed;
+  width: 100%;
+  height: $f68;
+  background-color: $black;
+  text-align: center;
+  line-height: $f68;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  
+
+
+  * {
+    vertical-align: middle;
+  }
+
+  .navigation {
+    display: inline-block;
+    position:absolute;
+    left:$f42;
+    .active {
+      color: $blue;
+    }
+    li {
+      display: inline-block;
+      font-family: $font-header-text;
+      font-size: $f26;
+      font-weight: bold;
+      margin-right: $f26;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+  .logo {
+    display: inline-block;
+    height: fnW(66);
+    width: fnW(153);
+  }
+
+
+  .header-icons {
+    position:absolute;
+    top:0;
+    right:$f42;
+    .search-icon {
+      display: inline-block;
+      height: $f26;
+      width: $f26;
+    }
+    .basket-icon {
+      display: inline-block;
+      height: $f26;
+      width: $f26;
+      margin-left: $f26;
+    }
+  }  .logo {
+    display: inline-block;
+    height: fnW(89);
+    width: fnW(153);
+  }
+
+
+  .header-icons {
+    float: right;
+    .search-icon {
+      display: inline-block;
+      height: $f26;
+      width: $f26;
+      background: url('../images/icons/search.svg') no-repeat center;
+    }
+    .basket-icon {
+      display: inline-block;
+      height: $f26;
+      width: $f26;
+      margin-left: $f26;
+      background: url('../images/icons/basket.svg') no-repeat center;
+    }
+  }
+
+  
+}
+

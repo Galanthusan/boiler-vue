@@ -1,0 +1,21 @@
+/*
+  Function for converting PX to VW.
+  As a result, the function returns the pixel value from the width (1920px) of the window.
+
+  Usage: padding: fnW(16); //result: padding: 0.83333333vw
+
+ */
+@function fnW($val){
+  @return #{($val * 100) / 1920}vw;
+}
+
+/*
+  Function for converting PX to VH.
+  As a result, the function returns the pixel value from the height (1200px) of the window.
+
+  Usage: padding: fnH(16); //result: padding: 1.33333333vh
+
+ */
+@function fnH($val){
+  @return #{($val * 100) / 1200}vh;
+}
