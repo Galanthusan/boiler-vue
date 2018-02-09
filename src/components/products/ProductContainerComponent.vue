@@ -24,7 +24,7 @@
           {
             name: 'WILLER EV100DR fine',
             brand_name: 'willer',
-            url: '1.png',
+            url: '4.png',
             amount: 100,
             amount_name: '100 - 149',
             power: 2.0,
@@ -38,7 +38,7 @@
           {
             name: 'ARISTON ABS PRO R 65V SLIM',
             brand_name: 'ariston',
-            url: '2.png',
+            url: '9.png',
             amount: 65,
             amount_name: '50 - 79',
             power: 1.5,
@@ -52,7 +52,7 @@
           {
             name: 'ELECTROLUX EWH 30 AXIOmatic Slim',
             brand_name: 'electrolux',
-            url: '3.png',
+            url: '4.png',
             amount: 30,
             amount_name: '30 - 49',
             power: 1.5,
@@ -66,7 +66,7 @@
           {
             name: 'ZANUSSI ZWH/S 100 Smalto',
             brand_name: 'zanussi',
-            url: '4.png',
+            url: '10.png',
             amount: 100,
             amount_name: '100 - 149',
             power: 2.0,
@@ -80,7 +80,7 @@
           {
             name: 'BOSCH Tronic 2000 T 50B',
             brand_name: 'bosch',
-            url: '5.png',
+            url: '16.png',
             amount: 50,
             amount_name: '50 - 79',
             power: 1.5,
@@ -94,7 +94,7 @@
           {
             name: 'RODA Palladium 50',
             brand_name: 'roda',
-            url: '6.png',
+            url: '4.png',
             amount: 50,
             amount_name: '50 - 79',
             power: 1.6,
@@ -108,7 +108,7 @@
           {
             name: 'RODA Aqua INOX 80 VM',
             brand_name: 'roda',
-            url: '7.png',
+            url: '10.png',
             amount: 80,
             amount_name: '80 - 99',
             power: 2.0,
@@ -122,7 +122,7 @@
           {
             name: 'ATLANTIC CLASSIC VM 80 N4L',
             brand_name: 'atlantic',
-            url: '8.png',
+            url: '16.png',
             amount: 80,
             amount_name: '80 - 99',
             power: 1.5,
@@ -164,7 +164,7 @@
           {
             name: 'ELECTROLUX EWH 80 Royal Flash',
             brand_name: 'electrolux',
-            url: '11.png',
+            url: '4.png',
             amount: 80,
             amount_name: '80 - 99',
             power: 2.0,
@@ -178,7 +178,7 @@
           {
             name: 'ELECTROLUX EWH 50 AXIOmatic Slim',
             brand_name: 'electrolux',
-            url: '12.png',
+            url: '16.png',
             amount: 50,
             amount_name: '50 - 79',
             power: 1.5,
@@ -192,7 +192,7 @@
           {
             name: 'BOSCH Tronic 2000 T 30SB',
             brand_name: 'bosch',
-            url: '13.png',
+            url: '10.png',
             amount: 30,
             amount_name: '30 - 49',
             power: 1.2,
@@ -206,7 +206,7 @@
           {
             name: 'GORENJE GBK 80 LN',
             brand_name: 'gorenje',
-            url: '14.png',
+            url: '16.png',
             amount: 80,
             amount_name: '80 - 99',
             power: 2.0,
@@ -220,7 +220,7 @@
           {
             name: 'GORENJE TGR 80 NGV9',
             brand_name: 'gorenje',
-            url: '15.png',
+            url: '4.png',
             amount: 80,
             amount_name: '80 - 99',
             power: 2.0,
@@ -234,7 +234,7 @@
           {
             name: 'ARISTON ABS VLS EVO PW 30',
             brand_name: 'ariston',
-            url: '16.png',
+            url: '10.png',
             amount: 30,
             amount_name: '30 - 49',
             power: 1.5,

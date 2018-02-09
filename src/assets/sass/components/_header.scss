@@ -26,7 +26,7 @@
       display: inline-block;
       font-family: $font-header-text;
       font-size: $f26;
-      font-weight: bold;
+      font-weight: normal;
       margin-right: $f26;
     }
     a {
@@ -35,10 +35,10 @@
     }
   }
 
-  .logo {
+  .logo img {
     display: inline-block;
-    height: fnW(66);
-    width: fnW(153);
+    height: fnW(69);
+    width: fnW(105);
   }
 
 

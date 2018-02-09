@@ -21,7 +21,7 @@ $input_placeholder_color: gray;
  */
 $font_path: '../assets/fonts/';
 
-$font-header-text: 'Akrobat', sans-serif;
+$font-header-text: Roboto Condensed,sans-serif;
 /*
   Fibonacci shortcuts for vw
  */
@@ -52,6 +52,7 @@ $f480: 30vw;
 @import "assets/mixins";
 
 @import "layout/grid";
+@import "layout/fonts";
 
 @import "components/header";
 @import "components/sub-navigation";
