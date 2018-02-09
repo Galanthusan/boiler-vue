@@ -8,19 +8,21 @@
   height: calc(100vh - #{$f68 + $f68});
   z-index: 2;
   border-bottom: 1px solid $lightgray;
+  border-right: 1px solid $lightgray;
 
   .filter-group {
     h2 {
       font-family: 'Roboto Condensed', sans-serif;
-      font-size: $f26;
+      font-size: $f21;
       font-weight: 800;
       color: $darkgray;
     }
     .input-list {
       margin-top: $f13;
+      margin-bottom: $f34;
       .form-group {
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: $f21;
+        font-size: $f18;
         font-weight: 500;
         margin-bottom: $f8;
         color: $darkgray;
